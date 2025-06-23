@@ -5,7 +5,7 @@
     text-align:left;
     font-size: 15px;
     /* padding-left: 80px; */
-    font-family: 'Poppins', sans-serif;
+
 }
 
 .login{
@@ -22,7 +22,19 @@
     padding: 5px;
     color: black;
     width: 70px;
+    border: 1px solid black;
+    border-radius: 5px;
 }
+
+.guides{
+    background-color: white;
+    padding: 5px;
+    color: black;
+    width: 70px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
 
 .Auth{
     display: flex;
@@ -39,12 +51,37 @@
     text-align:left;
     font-size: 15px;
     padding-left: 80px;
-    font-family: 'Poppins', sans-serif;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande';
 }
 
-.guides{
-    background-color: white;
-    padding: 5px;
-    color: black;
-    width: 70px;
+
+.Home{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.Assets{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.Transactions{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.Support{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.entsidebar{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
 }
